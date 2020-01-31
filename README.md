@@ -6,4 +6,5 @@ The modified parser uses both wordnet annotations as well as the sentence embedd
 
 Given a command, our parser first uses coreference resolution to replace pronouns with the respective nouns. Next, the command is broken into one or more short commands (based on , or and). Each of these short commands is then matched against the most similar command (from a list of known commands) using sentence embeddings (as in Part 2) and are executed in sequence.
 
-For the extra component involving NLP, we have included a door which unlocks only if you can distinguish between human and AI generated text! We have used the GPT-2 model provided by HuggingFace for generated text.
+For the extra component involving NLP, we have included a door at the end of the game which unlocks only if you can distinguish between human and AI generated text! We have used the GPT-2 model provided by HuggingFace for generating text. To
+directly reach here, type `take jug, w, n, e, fill jug with water, w, s, s, water plant, eat plant, n, n, down, down, take torch, light torch, up, up, south, up, up, take spear, down, down, north, down, down, s, break case, take armor, wear armor, n, up, up, unlock door`. 
