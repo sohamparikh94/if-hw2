@@ -10,20 +10,22 @@
             "food.n.02"
         ],
         "give": [],
-        "go": [],
+        "go": [
+            "exit.v.01",
+            "move.v.03"
+        ],
         "lamp": [],
         "light": [
-            "lighten.v.05"
+            "burn.v.05"
         ],
         "north": [],
         "princess": [],
         "propose": [
-            "request.v.02",
-            "ask.v.02",
-            "request.v.01"
+            "declare.v.01"
         ],
         "rose": [
-            "shrub.n.01"
+            "shrub.n.01",
+            "woody_plant.n.01"
         ],
         "smell": [],
         "troll": [
@@ -31,7 +33,8 @@
             "monster.n.01",
             "mythical_being.n.01",
             "imaginary_being.n.01",
-            "imaginary_being.n.01"
+            "imaginary_being.n.01",
+            "imagination.n.01"
         ],
         "wear": []
     },
@@ -41,116 +44,25 @@
             "devour.v.03",
             "devour.v.04",
             "eat_up.v.01",
-            "fare.v.02",
             "fill_up.v.04",
             "garbage_down.v.01",
             "gluttonize.v.01",
             "gobble.v.01",
             "nibble.v.03",
             "peck.v.02",
-            "pick_at.v.02",
-            "pitch_in.v.01",
-            "ruminate.v.01",
             "slurp.v.01",
-            "wash_down.v.01",
-            "wolf.v.01",
-            "tuck_in.v.01"
+            "wolf.v.01"
         ],
         "fish": [
-            "alewife.n.01",
-            "anchovy.n.01",
-            "eel.n.01",
-            "haddock.n.01",
-            "hake.n.01",
-            "mullet.n.01",
             "panfish.n.01",
             "rock_salmon.n.01",
             "salmon.n.03",
-            "schrod.n.01",
-            "shad.n.01",
-            "smelt.n.01",
-            "stockfish.n.01",
-            "trout.n.01",
-            "elver.n.01",
-            "smoked_eel.n.01",
-            "finnan_haddie.n.01",
-            "atlantic_salmon.n.01",
-            "chinook_salmon.n.01",
-            "kippered_salmon.n.01",
-            "red_salmon.n.01",
-            "silver_salmon.n.01",
-            "smoked_salmon.n.01",
-            "american_smelt.n.01",
-            "european_smelt.n.01",
-            "rainbow_trout.n.01",
-            "sea_trout.n.01",
-            "lox.n.02",
-            "nova_scotia_lox.n.01",
-            "scandinavian_lox.n.01"
+            "trout.n.01"
         ],
         "give": [
-            "accord.v.02",
-            "allow.v.03",
-            "bestow.v.02",
-            "concede.v.03",
-            "contribute.v.02",
-            "cough_up.v.01",
-            "distribute.v.01",
-            "offer.v.02",
-            "pay.v.01",
-            "present.v.04",
-            "provide.v.02",
-            "spare.v.03",
-            "supply.v.01",
-            "give.v.35",
-            "vouchsafe.v.01",
-            "assign.v.02",
-            "give.v.20",
-            "put_up.v.08",
-            "accommodate.v.03",
-            "cater.v.02",
-            "feed.v.01",
-            "feed.v.02",
-            "feed.v.07",
-            "fix_up.v.01",
-            "gratify.v.02",
-            "gutter.v.04",
-            "meet.v.04",
-            "nourish.v.01",
-            "regale.v.01",
-            "serve.v.05",
-            "serve.v.06",
-            "shower.v.05",
-            "equip.v.01",
-            "extend.v.04",
-            "feed.v.03",
-            "flood.v.03",
-            "provision.v.01",
-            "pump.v.04",
-            "stock.v.03",
-            "surfeit.v.01",
-            "theme.v.01",
-            "victual.v.01",
-            "yield.v.01",
-            "allocate.v.01",
-            "allow.v.04",
-            "breakfast.v.02",
-            "dine.v.02",
-            "fodder.v.01",
-            "lunch.v.02",
-            "nutrify.v.01",
-            "overfeed.v.01",
-            "range.v.07",
-            "scavenge.v.03",
-            "quench.v.01",
-            "feed.v.10",
-            "award.v.01",
-            "reapportion.v.01",
-            "confer.v.02"
+            "award.v.02"
         ],
-        "go": [
-            "shove_off.v.01"
-        ],
+        "go": [],
         "lamp": [
             "floor_lamp.n.01",
             "reading_lamp.n.01",
@@ -158,8 +70,13 @@
             "student_lamp.n.01"
         ],
         "light": [
-            "floodlight.v.01",
-            "spotlight.v.02"
+            "flare_up.v.01",
+            "kindle.v.02",
+            "light_up.v.04",
+            "light_up.v.05",
+            "reignite.v.01",
+            "kindle.v.01",
+            "rekindle.v.01"
         ],
         "north": [],
         "princess": [
@@ -168,37 +85,40 @@
             "maharani.n.01",
             "princess_royal.n.01"
         ],
-        "propose": [],
+        "propose": [
+            "advance.v.02",
+            "proposition.v.01"
+        ],
         "rose": [
             "banksia_rose.n.01",
             "cherokee_rose.n.01",
             "china_rose.n.01",
             "damask_rose.n.01",
             "dog_rose.n.01",
-            "ground_rose.n.01",
             "mountain_rose.n.01",
-            "multiflora.n.01",
-            "musk_rose.n.01",
-            "sweetbrier.n.01",
             "tea_rose.n.01"
         ],
-        "smell": [],
+        "smell": [
+            "get_a_noseful.v.01",
+            "sniff.v.01",
+            "snuff.v.01"
+        ],
         "troll": [],
         "wear": []
     },
     "senses": {
-        "crown": "crown.n.05",
+        "crown": "crown.n.03",
         "eat": "eat.v.01",
         "fish": "fish.n.02",
-        "give": "give.v.03",
+        "give": "give.v.01",
         "go": "go.v.03",
         "lamp": "lamp.n.02",
-        "light": "light.v.01",
-        "north": "north.n.03",
+        "light": "ignite.v.01",
+        "north": "north.n.05",
         "princess": "princess.n.01",
-        "propose": "propose.v.05",
+        "propose": "propose.v.01",
         "rose": "rose.n.01",
-        "smell": "olfactory_property.n.01",
+        "smell": "smell.v.01",
         "troll": "troll.n.01",
         "wear": "wear.v.01"
     }
